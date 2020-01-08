@@ -8,7 +8,7 @@ yjyl.tar.gz
  
 html.tar.gz
   使用方法
-      放入到任意中间件即可，如果两个场景一起体现，则建议centos 6 ，该版本默认安装了httpd服务。
+      放入到任意中间件即可，如果两个场景一起体现，则建议centos 6 ，该版本默认安装了httpd服务
   功能
     演练直接显示敏感词，是否可以正常监测(后续敏感词在服务端已加密，客户端访问解密)
     演练抗CC攻击防护启用验证机制后是否可以正常监测
@@ -22,26 +22,22 @@ xmr.tar.gz
   0x00 版本
     v1.0 2019.09 *
     v2.0 2019.12 去除挖矿程序，使用其他模拟挖矿网络/占用CPU资源的行为，防止发生风险和意外
-
   0x01 使用方法
 		sh start.sh				一键部署环境
 		unset LD_PRELOAD && sh delete.sh or sh delete.sh 2>/dev/null 一键删除环境
       delete.sh删除文件3后，LD_PRELOAD会因无法找到文件3导致当前shell命令执行报错,unset LD_PRELOAD无法在shell脚本中执行，两种方式都可实现删除环境不报错
-
   0x02 文件说明
     1           "挖矿"网络程序
     2           "挖矿"占用CPU程序
-	  3           .so全局劫持文件
-	  4           "挖矿"启动程序
-	  delete.sh		删除"挖矿"环境脚本
-	  history			复制已有history记录到该目录下
-	  sourcefile		源文件夹
-	  start.sh		部署"挖矿"环境脚本
-
+    3           .so全局劫持文件
+    4           "挖矿"启动程序
+    delete.sh	删除"挖矿"环境脚本
+    history	复制已有history记录到该目录下
+    sourcefile	源文件夹
+    start.sh	部署"挖矿"环境脚本
   0x03 适用操作系统
     Centos6
     Centos7
     其他系统未测试
-
   0x04 by:捕影.竹林再遇北极熊
-	  用途，仅用于捕影应急响应小组基础内训或挖矿应急演练之用
+    用途，仅用于捕影应急响应小组基础内训或挖矿应急演练之用
