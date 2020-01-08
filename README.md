@@ -3,11 +3,13 @@
 
 yjyl.tar.gz
 
+
   html.tar.gz  抵抗敏感词/敏感图片攻击环境
   
   xmr.tar.gz   抵抗操作系统恶意程序攻击
   
   yjyl.sh      如果都在centos 6环境下，一键部署，但xmr.tar.gz环境不会自启动
+  
  
 html.tar.gz
 
@@ -30,6 +32,7 @@ html.tar.gz
     演练是否可以正常监测静/动态图片含有的敏感词和涩清内容
     
     工具：修改本地hosts文件，将www.google.cn解析到该站点IP使用域名进行访问，并点击后续页面的跳转，即可发现敏感词，在客户端http头部伪造插入Referer字段，服务器抓包 也能看到referer字段但并不会触发（已测试火狐浏览器）
+    
 
 xmr.tar.gz
 
