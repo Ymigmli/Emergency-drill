@@ -6,7 +6,7 @@
 
     html.tar.gz  抵抗敏感词/敏感图片攻击环境
   
-    xmr.tar.gz   抵抗操作系统恶意程序攻击
+    xmr.tar.gz   抵抗操作系统恶意程序攻击环境
   
     yjyl.sh      如果都在centos 6环境下，一键部署，但xmr.tar.gz环境不会自启动
    
